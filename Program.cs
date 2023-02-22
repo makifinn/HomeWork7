@@ -107,8 +107,8 @@ while (IsWork)
 
                     void Task_2()
                     {
-                        int m = ReadInt("сколько строк должно быть в массиве? ");
-                        int n = ReadInt("сколько столбцов должно быть в массиве? ");
+                        int m = ReadInt("сколько строк должно быть в массиве");
+                        int n = ReadInt("сколько столбцов должно быть в массиве");
                         int[,] arrayD = CreateRandomTwoDimensionIntArray(m, n);
                         Console.WriteLine($"создан массив: ");
                         Console.WriteLine(PrintTwoDimensionIntArray(arrayD));
